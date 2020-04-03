@@ -1,0 +1,106 @@
+@font-face {
+    font-family: Arizonia;
+    src: url("./Playball.ttf");
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.hero-image {
+    background-color: black;
+    background-image: url("./img/black-mamba.png");
+    /* height: 100%; */
+}
+
+.bg3 {
+    background-color: black;
+    background-image: url("./img/black-mamba.png");
+    /* height: 100%; */
+}
+
+.bg5 {
+    background-color: black;
+    background-image: url("./img/black-mamba.png");
+    /* height: 20%; */
+    text-align: center;
+}
+.bg2 {
+    background-image: url("./img/maz.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+
+}
+
+.bg4 {
+    background-image: url("./img/bg4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+
+}
+
+.hero-text {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    color: #e1bd27;
+    font-family: "Arizonia";
+}
+
+.filter {
+    filter: grayscale(100%) blur(5px);
+}
+
+.text-center {
+    right: 5%;
+    position: absolute;
+    color: wheat;
+    top: 20%;
+}
+
+.abouthead {
+    color: white;
+}
+
+.aboutme {
+    text-align: justify;
+
+}
+
+.card {
+    border: 3px solid #e1bd27;
+    border-radius: 5%;
+}
+
+.card-img-top {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.card-body {
+    background: black;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    color: #e1bd27;
+    text-align: center;
+}
+
+.awards {
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.mobile {
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
